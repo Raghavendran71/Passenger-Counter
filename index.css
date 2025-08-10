@@ -1,32 +1,29 @@
 body {
-    background-image: url("yarn.jpeg");
+    background-image: url("/istockphoto-538801788-612x612.jpg");
     background-size: cover;
-    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family:   sans-serif;
+    font-weight: bold;
     text-align: center;
-    height: 100vh;
-}
-
-.container {
-    background: white;
-    max-width: 80%;
-    margin: auto;
-    border: 3px solid black;
-    border-radius: 10px;
+    height :100vh;
+    
+    
 }
 
 h1 {
     margin-top: 10px;
     margin-bottom: 10px;
+    color: #ffbf00;
 }
 
 h2 {
     font-size: 50px;
     margin-top: 0;
     margin-bottom: 20px;
+    color : #ffbf00;
 }
 
 button {
-    border: 1px solid black;
+    border: none;
     padding-top: 10px;
     padding-bottom: 10px;
     color: white;
@@ -37,14 +34,29 @@ button {
 }
 
 #increment-btn {
-    background: #2C2891;
+    background: darkred;
+    background: #ffbf00;
+    color: #0D6CB0;
 }
 
 #save-btn {
-    background: #1C7947;
+    background: #ffbf00;
+    margin-top: 20px;
+    color: #0D6CB0;
 }
 
-#save-el {
-    font-weight: bold;
+#train {
+    
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    max-width: fit-content;
 }
 
+p {
+    
+    color: #ffbf00;;
+    margin-right: 60px;
+}
